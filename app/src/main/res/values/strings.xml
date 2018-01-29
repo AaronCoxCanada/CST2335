@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">AndroidLabs</string>
+    <string name="app_name">Android Labs</string>
+    <string name="hello_message">Hello world!</string>
+    <string name="button_message">I\'m a button!</string>
+    <string name="login_text">Login</string>
+    <string name="login_hint">login name</string>
+    <string name="textpassword_text">Password</string>
+    <string name="password_hint">login password</string>
+    <string name="switch_text">What does this do?</string>
+
+    <string name="radio_button">Radio Button</string>
+    <string name="checkbox_item">CheckBox</string>
+    <string name="image_description">Image of Camera Icon</string>
+    <string name="flag_desc">Image of Local National Flag</string>
+
 </resources>

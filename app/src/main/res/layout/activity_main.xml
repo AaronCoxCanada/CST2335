@@ -7,10 +7,12 @@
     tools:context="com.example.deathforce.androidlabs.MainActivity">
 
     <TextView
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/text_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="@string/hello_message"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
@@ -20,6 +22,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/text_message"
         app:layout_constraintLeft_toLeftOf="@id/text_message"
-        android:text="Button" />
+        android:text="@string/button_message" />
 
 </android.support.constraint.ConstraintLayout>
