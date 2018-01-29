@@ -1,8 +1,11 @@
 package com.example.deathforce.androidlabs;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -13,6 +16,20 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.i(ACTIVITY_NAME, "In onCreate()");
+
+        Button helloButton = findViewById(R.id.button);
+        helloButton.setOnClickListener((View e)->{
+            Intent intent = new Intent(this, ListItemsActivity.class);
+            startActivityForResult(intent, 50);
+        });
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == 50){
+            Log.i(ACTIVITY_NAME, "Returned to MainActivity.onActivityResult");
+        }
     }
 
     @Override

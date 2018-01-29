@@ -12,5 +12,9 @@
     <string name="checkbox_item">CheckBox</string>
     <string name="image_description">Image of Camera Icon</string>
     <string name="flag_desc">Image of Local National Flag</string>
+    <string name="login_button">Log in</string>
+
+    <string name="DEFAULT_EMAIL">DefaultEmail</string>
+    <string name="SHARED_PREF">SharedPreferencesFile</string>
 
 </resources>
