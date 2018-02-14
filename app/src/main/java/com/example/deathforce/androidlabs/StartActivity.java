@@ -18,6 +18,15 @@ public class StartActivity extends Activity {
         setContentView(R.layout.activity_main);
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
+        Button startChatButton = findViewById(R.id.startChatButton);
+        startChatButton.setOnClickListener((View e)->{
+
+
+            Log.i(ACTIVITY_NAME, "User clicked Start Chat");
+            Intent intent = new Intent(this, ChatWindow.class);
+            startActivity(intent);
+        });
+
         Button helloButton = findViewById(R.id.button);
         helloButton.setOnClickListener((View e)->{
             Intent intent = new Intent(this, ListItemsActivity.class);

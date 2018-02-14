@@ -24,4 +24,12 @@
         app:layout_constraintLeft_toLeftOf="@id/text_message"
         android:text="@string/button_message" />
 
+    <Button
+        android:id="@+id/startChatButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/button"
+        app:layout_constraintLeft_toLeftOf="@id/button"
+        android:text="@string/chat_button" />
+
 </android.support.constraint.ConstraintLayout>

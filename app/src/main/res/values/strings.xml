@@ -29,4 +29,9 @@
     <string name="switch_on">Switch is On</string>
     <string name="switch_off">Switch is Off</string>
 
+    <string name="chat_button">Start Chat</string>
+    <string name="send_chat_button">Send</string>
+    <string name="chat_text_message_label">Enter text message</string>
+    <string name="chat_image_description">Avatar of user</string>
+
 </resources>
