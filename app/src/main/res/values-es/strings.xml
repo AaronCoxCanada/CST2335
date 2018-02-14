@@ -30,4 +30,9 @@
     <string name="switch_on">El interruptor está encendido</string>
     <string name="switch_off">El interruptor está apagado</string>
 
+    <string name="chat_button">Comenzar charla</string>
+    <string name="send_chat_button">Enviar</string>
+    <string name="chat_text_message_label">Ingrese un mensaje de texto</string>
+    <string name="chat_image_description">Avatar de usuario</string>
+
 </resources>
