@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.deathforce.androidlabs.MainActivity">
+    tools:context="com.example.deathforce.androidlabs.StartActivity">
 
     <TextView
         android:layout_marginStart="20dp"

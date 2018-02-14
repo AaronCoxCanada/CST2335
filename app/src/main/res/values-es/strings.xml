@@ -11,4 +11,23 @@
 
     <string name="radio_button">Boton de radio</string>
     <string name="checkbox_item">Caja</string>
+    <string name="image_description">Imagen del icono de la cámara</string>
+    <string name="flag_desc">Imagen de la bandera nacional local</string>
+    <string name="login_button">Iniciar sesión</string>
+
+    <string name="DEFAULT_EMAIL">DefaultEmail</string>
+    <string name="SHARED_PREF">SharedPreferencesFile</string>
+
+    <string name="alert_message">Mensaje de Alerta</string>
+    <string name="alert_title">Título de Alerta</string>
+    <string name="ok">Bueno</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="dialog_message">¿Has terminado con la actividad?</string>
+    <string name="dialog_title">Mensaje de Alerta</string>
+    <string name="dialog_toast_message">ListItems Actividad cerrada</string>
+
+    <string name="switch_on">El interruptor está encendido</string>
+    <string name="switch_off">El interruptor está apagado</string>
+
 </resources>

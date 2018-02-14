@@ -8,4 +8,6 @@
     <string name="textpassword_text">Password</string>
     <string name="password_hint">login password</string>
     <string name="switch_text">What does this do?</string>
+
+
 </resources>

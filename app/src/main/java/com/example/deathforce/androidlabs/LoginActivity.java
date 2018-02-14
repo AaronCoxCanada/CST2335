@@ -29,9 +29,9 @@ public class LoginActivity extends Activity {
             SharedPreferences.Editor edit = sharedPreferences.edit();
             EditText loginName = findViewById(R.id.editText);
             edit.putString(getString(R.string.DEFAULT_EMAIL),loginName.getText().toString());
-            edit.commit();
+            edit.apply();
 
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, StartActivity.class);
             startActivity(intent);
         });
     }

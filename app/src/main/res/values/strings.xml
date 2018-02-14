@@ -17,4 +17,16 @@
     <string name="DEFAULT_EMAIL">DefaultEmail</string>
     <string name="SHARED_PREF">SharedPreferencesFile</string>
 
+    <string name="alert_message">Alert Message</string>
+    <string name="alert_title">Alert Title</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="dialog_message">Are you finished with activity?</string>
+    <string name="dialog_title">Alert Message</string>
+    <string name="dialog_toast_message">ListItems Activity closed</string>
+
+    <string name="switch_on">Switch is On</string>
+    <string name="switch_off">Switch is Off</string>
+
 </resources>
